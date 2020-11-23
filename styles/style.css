@@ -1,0 +1,230 @@
+body {
+  background-color: #ebebeb;
+  color: #333;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Header styles */
+#header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-container {
+  display: flex;
+  align-items:  center;
+  flex-direction: column;
+}
+
+
+
+/* nav styles */
+#nav-bar {
+  margin-left: auto;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 2em 2.6em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* logo styles */
+#header-img {
+  width: 191px;
+  height: 60px;
+}
+
+
+@media (min-width: 960px) {
+  .header-container {
+    flex-direction: row;
+  }
+}
+
+/* wrapper styles */
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.container-mini {
+  width: 70%;
+}
+
+
+/* hero and form styles */
+.hero {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+}
+
+.hero-item {
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 1.6em;
+}
+
+input {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px 10px;
+}
+
+input[type="submit"] {
+  width: auto;
+  padding: 15px 30px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: yellow;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: yellowgreen;
+}
+
+
+/* main styles */
+
+.main {
+  background-color: #fff;
+}
+
+
+/* media styles */
+.media {
+  display: flex;
+  align-items: center;
+}
+
+.media-img {
+  margin-right: 6em;
+}
+
+
+/* section styles */
+.section {
+  padding: 4em 0;
+}
+
+
+
+
+.video-container {
+  text-align: center;
+}
+
+
+
+
+/* box styles */
+.box {
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.box-header {
+  background-color: #ccc;
+  padding: .5em;
+}
+
+.box-header h3 {
+  margin: 0;
+}
+
+.box-details {
+  padding: 1em;
+}
+
+.listing {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.box-actions {
+  padding: .5em;
+}
+
+.btn-link {
+  padding: .5em 1.5em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+
+/* style for the grids */
+
+.row {
+  margin-bottom: 3.2em;
+  overflow: hidden;
+}
+
+.col {
+  float: left;
+  width: 100%;
+  margin-bottom: 1.6em;
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+
+@media (min-width: 960px) {
+  .col {
+    margin-right: 1.6em;
+    margin-bottom: 0;
+  }
+
+  .is-one-half {
+    width: calc((100% - 1.6em) / 2);
+  }
+  
+  .is-one-third {
+    width: calc((100% - 2 * 1.6em) / 3);
+  }
+}
+
+
+
+
+
+/* footer styles  */ 
+
+.footer {
+  text-align: right;
+}
+
+.footer-nav a {
+  display: inline-block;
+  padding: .5em 1em;
+  color: #333;
+  text-decoration: none;
+}
